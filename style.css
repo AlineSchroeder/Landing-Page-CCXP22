@@ -1,0 +1,109 @@
+body {
+    margin:0px;
+    padding:0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    background-color:#FFD900;
+}
+
+header img {
+    margin: 30px 60px 30px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 45% auto;
+    column-gap: 10px;
+}
+
+#titulo {
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background-color: #514988;
+    color: #FFD900;
+    text-align: center;
+}
+
+#titulo h1 {
+    font-size: 50px;
+}
+
+#data {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#conteudo {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.timer {
+    height: 90px;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    color: rgba(81, 73, 136, 1);
+}
+
+.timer div {
+    display: flex;
+    margin-right: 35px;
+    font-size: 40px;
+    margin-top: -15px;
+}
+
+#aviso {
+    font-size: 25px;
+    text-align: center;
+    color: rgba(227, 56, 129, 1);
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-bottom: 30px;
+}
+
+#aviso2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    height: 40px;
+    margin-top: 10px;
+    color: rgba(243, 198, 31, 1);
+    margin-left: 60px;
+    font-size: 28px;
+}
+
+#ing {
+    margin-left: 80px;
+}
+
+#compra {
+    align-self: center;
+}
+
+button{
+    background: rgba(81, 73, 136, 1);
+    height: 120px;
+    width: 550px;
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 40px;
+    font-weight: bolder;
+    border: 0px;
+    border-radius: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: rgba(243, 198, 31, 1);
+    color: #ffffff;
+    transform: translateY(-3px);
+    box-shadow: 0px 15px 20px rgba(243, 197, 31, 0.596);
+    transition-duration: 0.5s;
+}
