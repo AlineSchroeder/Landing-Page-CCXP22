@@ -96,8 +96,7 @@ button{
     border: 0px;
     border-radius: 20px;
     font-weight: bolder;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 button:hover{
@@ -106,4 +105,84 @@ button:hover{
     transform: translateY(-3px);
     box-shadow: 0px 15px 20px rgba(243, 197, 31, 0.596);
     transition-duration: 0.5s;
+}
+
+@media only screen and (max-width: 600px){
+
+    body {
+        margin:0px;
+        padding:0px;
+    }
+    
+    header img {
+        margin: 20px 40px 20px;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    #titulo h1 {
+        font-size: 30px;
+    }
+    
+    #data {
+        font-size: 15px;
+    }
+    
+    #conteudo {
+        font-size: 15px;
+    }
+    
+    .timer div {
+        margin-left: -20px;
+        align-self: center;
+        align-items: center;
+        font-size: 20px;
+    }
+    
+    #aviso {
+        margin-top: -40px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    #video {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    #aviso2 {
+        margin: 10px;
+        font-size: 20px;
+        overflow-wrap: break-word;
+    }
+
+    section img {
+        max-width: 200px;
+        margin-bottom: 10px;
+        margin-left: -5px;
+    }
+    
+    #ing {
+        margin: 0px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    #compra {
+        margin-top: 10px;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
+
+    button{
+        height: 100px;
+        width: 350px;
+        font-size: 30px;
+        margin-left: 30px;
+    }
 }
