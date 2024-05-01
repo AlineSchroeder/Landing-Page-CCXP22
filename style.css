@@ -2,10 +2,11 @@ body {
     margin:0px;
     padding:0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:#FFD900;
 }
 
-header {
-    background-color:#FFD900;
+section {
+    background-color:#ffffff;
 }
 
 header img {
@@ -114,6 +115,32 @@ button:hover{
 .card-highlight {
     box-shadow: 10px 10px 10px 10px gray;
 }
+
+.card-selected{
+    border: 5px solid rgba(81, 73, 136, 1);
+}
+
+input {
+    background-color: #514988;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 0px;
+    margin: 30px;
+    width: 600px;
+    height: 70px;
+    font-size: 50px;
+}
+
+#inscrição {
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+
+
+
+/*Sessão Mobile*/
 
 @media only screen and (max-width: 600px){
 
