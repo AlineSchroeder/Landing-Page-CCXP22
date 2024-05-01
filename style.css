@@ -81,6 +81,10 @@ header img {
     margin-left: 80px;
 }
 
+section div img {
+    margin: 10px;
+}
+
 #compra {
     align-self: center;
 }
@@ -105,6 +109,10 @@ button:hover{
     transform: translateY(-3px);
     box-shadow: 0px 15px 20px rgba(243, 197, 31, 0.596);
     transition-duration: 0.5s;
+}
+
+.card-highlight {
+    box-shadow: 10px 10px 10px 10px gray;
 }
 
 @media only screen and (max-width: 600px){
